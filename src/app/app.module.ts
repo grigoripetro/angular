@@ -25,6 +25,7 @@ import { Logger }              from './logger.service';
     HeroService,
     Logger
   ],
+  exports:   [ AppComponent ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
