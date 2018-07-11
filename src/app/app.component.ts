@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'demo-app',
-  template: `<li *ngFor="let hero of heroes"></li>`,
+  selector: 'my-app',
+  template: `
+    <hero-list></hero-list>
+    <sales-tax></sales-tax>
+  `
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent { }
