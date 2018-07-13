@@ -20,11 +20,13 @@ import { Logger }              from './logger.service';
     HeroListComponent,
     SalesTaxComponent
   ],
+  
   providers: [
     BackendService,
     HeroService,
     Logger
   ],
+  
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
