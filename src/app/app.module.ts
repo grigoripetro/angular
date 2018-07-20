@@ -12,8 +12,9 @@ import { Logger }              from './logger.service';
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
   ],
+  
   declarations: [
     AppComponent,
     HeroDetailComponent,
@@ -29,4 +30,5 @@ import { Logger }              from './logger.service';
   
   bootstrap: [ AppComponent ]
 })
+
 export class AppModule { }
