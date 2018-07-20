@@ -12,7 +12,7 @@ import { Logger }              from './logger.service';
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule
   ],
   
   declarations: [
