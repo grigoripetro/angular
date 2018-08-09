@@ -1,1 +1,1 @@
-Study Angular 2
+Study Angular 2 
